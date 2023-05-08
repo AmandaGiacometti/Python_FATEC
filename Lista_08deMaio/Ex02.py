@@ -1,5 +1,4 @@
-# Elabore um algoritmo que leia um numero pelo teclado e informe no monitor de vídeo se o número é par
-# ou ímpar. Procure outras formas de solução, além da divisão exata por 2.
+# Elabore um algoritmo que leia um numero pelo teclado e informe no monitor de vídeo se o número é par ou ímpar.
 
 num = int(input("Digite um número e descubra se ele é par ou ímpar: "))
 

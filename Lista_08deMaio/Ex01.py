@@ -1,5 +1,5 @@
-#Elabore um algoritmo que leia três números pelo teclado, coloque-os em ordem crescente (N<=N2<=N3)
-#e mostre-os em ordem crescente no monitor.
+# Elabore um algoritmo que leia três números pelo teclado, coloque-os em ordem crescente (N<=N2<=N3) e mostre-os
+# em ordem crescente no monitor.
 
 num1 = input("Digite o primeiro número: ")
 num2 = input("Digite o segundo número: ")
