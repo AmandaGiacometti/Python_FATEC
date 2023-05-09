@@ -6,14 +6,10 @@ A = int(input("Digite o primeiro número: "))
 B = int(input("Digite o segundo número: "))
 C = int(input("Digite o terceiro número: "))
 
-if (A <= B <= C and A + B <= C) or (A <= C <= B and A + C <= B) \
-		or (B <= A <= C and B + A <= C) \
-		or (B <= C <= A and B + C <= A) \
-		or (C <= A <= B and C + A <= B) \
-		or (C <= B <= A and C + B <= A):
+if ((A <= B and B <= C) and (A + B) <= C) or ((A <= C and C <= B) and (A + C) <= B) or ((B <= A and A <= C) and (B + A) <= C) or ((B <= C and C <= A) and (B + C) <= A) or ((C <= A and A <= B) and (C + A) <= B) or ((C <= B and B <= A) and (C + B) <= A):
 		print("Não forma um triângulo!")
 
-elif A == B == C:
+elif A == B and B == C:
 	print("Forma um triângulo equilátero")
 
 else:
@@ -22,5 +18,3 @@ else:
 
 	else:
 		print("Forma um triângulo escaleno")
-
-###### ISSO AQUI TÁ ERRADO PQ VC NÃO PODE COMPARAR 3 AO MESMO TEMPO!!!!!!!!!!!!!!!!!!!!
